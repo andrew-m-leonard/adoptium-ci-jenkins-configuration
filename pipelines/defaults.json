@@ -79,5 +79,9 @@
     },
     "defaultsUrl"            : "https://raw.githubusercontent.com/andrew-m-leonard/adoptium-ci-jenkins-configuration/main/pipelines/defaults.json",
     "enableInstallers"       : false,
-    "enableSigner"           : false
+    "enableSigner"           : false,
+    "cleanWorkspaceBeforeBuild" : false,
+    "cleanWorkspaceAfterBuild"  : false,
+    "cleanReleaseWorkspaceBeforeBuild" : true,
+    "cleanReleaseWorkspaceAfterBuild"  : false
 }
